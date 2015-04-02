@@ -1,0 +1,21 @@
+<div data-region="panel" class="visible" data-id="wrapper">
+    <div class="blocker" data-id="blocker"></div>
+    <div class="window" data-id="window">
+        <div data-region="button" class="x"
+             data-template="controls/button/imageButton"
+             data-css="controls_popup_close"
+             data-command="@templateParent doCancel">
+        </div>
+        <div class="windowContent" data-region="scroller" data-id="content">
+                <div>
+                    <span class="title" data-region="label" data-text="@templateParent text"></span>
+                </div>
+                <div class="buttons">
+                    <span data-region="button" data-text="@token commonActions.ok"
+                          data-command="@templateParent doCommit" data-css="controls_button_defaultButton"></span>
+                    <span data-region="button" data-text="@token commonActions.cancel"
+                          data-command="@templateParent doCancel"></span>
+                </div>
+        </div>
+    </div>
+</div>

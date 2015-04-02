@@ -1,0 +1,40 @@
+<div data-region="controls/popup/modalDialog"
+     data-visible="@context isVisible">
+
+    <div data-property="header-fragment" data-region="label" data-text="@templateParent dialog-title">
+    </div>
+
+    <div data-region="panel" data-visible="@context originalImageId">
+        <div class="image-area">
+            <div data-region="cropper"
+                 data-no-image="/client/b2b/icons/no-photo.png"
+                 data-expected-width="@templateParent expected-width"
+                 data-expected-height="@templateParent expected-height"
+                 data-lock-ratio="@context fixedRatio"
+                 data-image-id="@context originalImageId"
+                 data-result-left="@context cropperLeft mode=backWay"
+                 data-result-top="@context cropperTop mode=backWay"
+                 data-result-height="@context cropperHeight mode=backWay"
+                 data-result-width="@context cropperWidth mode=backWay"
+                 data-reset-event="@context cropperReset">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <span data-region="controls/fileUpload/fileUploadButton"
+              data-type="Image"
+              data-text="@token commonActions.uploadImage"
+              data-command="@context doSetResource"></span>
+    </div>
+
+    <div data-property="footer-fragment" class="buttons">
+        <span data-region="button"
+              data-text="@token commonActions.save"
+              data-command="@context doCommit"></span>
+        <span data-region="button"
+              data-text="@token commonActions.cancel"
+              data-command="@context doCancel"></span>
+    </div>
+
+</div>

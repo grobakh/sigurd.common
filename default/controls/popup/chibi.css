@@ -1,0 +1,181 @@
+.controls_popup_modalDialog .modalVisible {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+.controls_popup_modalDialog .title {
+  font: 14px arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #434d66;
+}
+.controls_popup_modalDialog .blocker {
+  position: fixed;
+  background-color: #000000;
+  opacity: 0.2;
+  margin: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.controls_popup_modalDialog .window {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 0;
+  width: 450px;
+  background: #FFFFFF;
+  border: 1px solid #909090;
+  box-shadow: 0 2px 16px #000000;
+  border-radius: 6px;
+  position: relative;
+  opacity: 1;
+  transition: opacity 50ms 100ms, transform 150ms;
+  -moz-transition: opacity 50ms 100ms, -moz-transform 150ms;
+  -webkit-transition: opacity 50ms 100ms, -webkit-transform 150ms;
+}
+.controls_popup_modalDialog .popup-hide {
+  transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  -moz-transform: scale(0.5, 0.5);
+  opacity: 0;
+  transition: opacity 50ms, transform 150ms;
+  -moz-transition: opacity 50ms, -moz-transform 150ms;
+  -webkit-transition: opacity 50ms, -webkit-transform 150ms;
+}
+.controls_popup_modalDialog .header {
+  position: absolute;
+  margin: 25px 0;
+  top: 0;
+  left: 50px;
+  right: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #434d66;
+}
+.controls_popup_modalDialog .footer {
+  position: absolute;
+  bottom: 0;
+  margin: 25px 0;
+  left: 50px;
+  right: 50px;
+}
+.controls_popup_modalDialog .windowContent {
+  clear: both;
+  margin: 50px 32px 50px 50px;
+  overflow: hidden;
+  position: relative;
+}
+.controls_popup_modalDialog .x {
+  float: right;
+  margin: -15px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.controls_popup_chibi .modalVisible {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+.controls_popup_chibi .title {
+  font: 14px arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #434d66;
+}
+.controls_popup_chibi .blocker {
+  position: fixed;
+  background-color: #000000;
+  opacity: 0.2;
+  margin: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.controls_popup_chibi .window {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 0;
+  width: 450px;
+  background: #FFFFFF;
+  border: 1px solid #909090;
+  box-shadow: 0 2px 16px #000000;
+  border-radius: 6px;
+  position: relative;
+  opacity: 1;
+  transition: opacity 50ms 100ms, transform 150ms;
+  -moz-transition: opacity 50ms 100ms, -moz-transform 150ms;
+  -webkit-transition: opacity 50ms 100ms, -webkit-transform 150ms;
+}
+.controls_popup_chibi .popup-hide {
+  transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+  -moz-transform: scale(0.5, 0.5);
+  opacity: 0;
+  transition: opacity 50ms, transform 150ms;
+  -moz-transition: opacity 50ms, -moz-transform 150ms;
+  -webkit-transition: opacity 50ms, -webkit-transform 150ms;
+}
+.controls_popup_chibi .header {
+  position: absolute;
+  margin: 25px 0;
+  top: 0;
+  left: 50px;
+  right: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #434d66;
+}
+.controls_popup_chibi .footer {
+  position: absolute;
+  bottom: 0;
+  margin: 25px 0;
+  left: 50px;
+  right: 50px;
+}
+.controls_popup_chibi .windowContent {
+  clear: both;
+  margin: 50px 32px 50px 50px;
+  overflow: hidden;
+  position: relative;
+}
+.controls_popup_chibi .x {
+  float: right;
+  margin: -15px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.controls_popup_chibi .header {
+  margin-top: 50px;
+  left: 25px;
+  margin-bottom: 0;
+}
+.controls_popup_chibi .footer {
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+.controls_popup_chibi .windowContent {
+  clear: both;
+  margin: 50px 32px 50px 50px;
+  overflow: hidden;
+  position: relative;
+}
+.controls_popup_chibi .footer .buttons button {
+  margin: 0 8px 0 0;
+}
+.controls_popup_chibi .title {
+  line-height: 20px;
+}

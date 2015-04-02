@@ -1,0 +1,19 @@
+.controls_image_imageCentered {
+  position: relative;
+}
+.controls_image_imageCentered .image-wrapper {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 0;
+  right: 0;
+  font-size: 1px;
+  height: 2000px;
+  line-height: 2000px;
+  margin: -1000px 0;
+  white-space: nowrap;
+}
+.controls_image_imageCentered img {
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,19 @@
+.controls_button_imageButton span {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 4px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.controls_wiki_wiki span {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 4px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.controls_wiki_wiki span {
+  background: url('/static/common/default/controls/icons/wiki.png') /*File C:\Work\Lookfi\tomcat\webapps\lookfi\client\\common\default\controls\icons\wiki.png doesn't exist. Check path*/ no-repeat center;
+}

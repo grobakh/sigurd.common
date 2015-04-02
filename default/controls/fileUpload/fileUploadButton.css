@@ -1,0 +1,28 @@
+.controls_fileUpload_fileUploadButton .upload {
+  display: inline-block;
+  margin: 0;
+  padding: 0 0 2px 0;
+  overflow: hidden;
+  position: relative;
+}
+.controls_fileUpload_fileUploadButton .label {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14px;
+  color: #009ade;
+  border: 0 dotted #009ade;
+  border-bottom-width: 1px;
+}
+.controls_fileUpload_fileUploadButton .file {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 200px;
+  line-height: 200px;
+  font-size: 200px;
+  margin: -100px 0;
+  width: 100%;
+  opacity: 0;
+}

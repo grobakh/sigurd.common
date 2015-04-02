@@ -1,0 +1,66 @@
+.controls_popup_confirm {
+  .title {
+    font: 14px arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #434d66;
+  }
+
+  .buttons {
+    margin-top: 10px;
+  }
+
+  .visible {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 101;
+  }
+
+  .blocker {
+    position: fixed;
+    background-color: #000000;
+    opacity: 0.2;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  .window {
+    margin: auto;
+    margin-top: 80px;
+    width: 450px;
+    background: #FFFFFF;
+    border: 1px solid #909090;
+    box-shadow: rgb(0, 0, 0) 0px 2px 16px 0px;
+    border-radius: 6px;
+    position: relative;
+  }
+
+  .windowContent {
+    transform-origin: center top;
+    -ms-transform-origin: center top;
+    -webkit-transform-origin: center top;
+    -moz-transform-origin: center top;
+    -o-transform-origin: center top;
+    clear: both;
+    margin: 20px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .x {
+    float: right;
+    margin: -15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+}

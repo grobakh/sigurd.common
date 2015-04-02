@@ -1,0 +1,7 @@
+.controls_previewWindow_previewWindow {
+  overflow: hidden;
+}
+.controls_previewWindow_previewWindow img {
+  display: block;
+  position: relative;
+}

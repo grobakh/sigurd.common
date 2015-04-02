@@ -1,0 +1,33 @@
+<div data-id="frame" class="frame">
+    <img data-id="image" class="image"/>
+    <div data-id="cover" class="cover">
+        <div class="blind" data-region="panel" data-dynamic="fast" data-width="@templateParent cropper-right"
+             data-right="0" data-top="0" data-bottom="0"></div>
+        <div class="blind" data-region="panel" data-dynamic="fast" data-left="0"
+             data-width="@templateParent cropper-left" data-top="0" data-bottom="0"></div>
+        <div class="blind" data-region="panel" data-dynamic="fast" data-left="@templateParent cropper-left"
+             data-right="@templateParent cropper-right" data-height="@templateParent cropper-bottom" data-bottom="0"></div>
+        <div class="blind" data-region="panel" data-dynamic="fast" data-left="@templateParent cropper-left"
+             data-right="@templateParent cropper-right" data-top="0" data-height="@templateParent cropper-top"></div>
+        <div data-id="cropper" data-region="panel" data-dynamic="fast" data-overflow="true"
+             data-left="@templateParent cropper-left" data-right="@templateParent cropper-right"
+             data-top="@templateParent cropper-top" data-bottom="@templateParent cropper-bottom">
+            <div class="dragfield top left"></div>
+            <!--div class="dragfield top blind"></div-->
+            <div class="dragfield top right"></div>
+            <!--div class="dragfield left blind"></div>
+            <div class="dragfield right blind"></div-->
+            <div class="dragfield bottom left"></div>
+            <!--div class="dragfield bottom blind"></div-->
+            <div class="dragfield bottom right"></div>
+        </div>
+    </div>
+    <div data-id="blocker" class="blocker"></div>
+</div>
+<div class="preview">
+    <div data-region="previewWindow" data-top="0" data-left="0"
+         data-height="@templateParent expected-height" data-width="@templateParent expected-width"
+         data-image-id="@templateParent image-id" data-dynamic="true" data-zoom="@templateParent preview-zoom"
+         data-crop-height="@templateParent result-height" data-crop-width="@templateParent result-width"
+         data-crop-left="@templateParent result-left" data-crop-top="@templateParent result-top"></div>
+</div>

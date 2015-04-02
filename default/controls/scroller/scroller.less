@@ -1,0 +1,143 @@
+.controls_scroller_scroller {
+  .right-scroller {
+    width: 12px;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    display: none;
+    background-color: #F0F5F9;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.1) inset;
+    border-radius: 4px;
+
+    div.button {
+      width: 12px;
+      height: 13px;
+      position: absolute;
+      right: 0;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-color: #C0C9CF;
+      box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.3) inset, -2px -2px 2px rgba(0, 0, 0, 0.05) inset;
+    }
+
+    div.up {
+      top: 0;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+    }
+
+    div.up:after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 3px;
+      top: 3px;
+      height: 0;
+      width: 0;
+      border: 3px solid transparent;
+      border-bottom: 6px solid #FFFFFF;
+      border-top-width: 0;
+    }
+
+    div.down {
+      bottom: 0;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+    div.down:after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 3px;
+      bottom: 3px;
+      height: 0;
+      width: 0;
+      border: 3px solid transparent;
+      border-top: 6px solid #FFFFFF;
+      border-bottom-width: 0;
+    }
+
+    div.scrolltab {
+      width: 12px;
+      height: 11px;
+      position: absolute;
+      right: 0;
+      top: 16px;
+      overflow: hidden;
+      background-color: #C0C9CF;
+      box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.3) inset, -2px -2px 2px rgba(0, 0, 0, 0.05) inset;
+    }
+
+    div.button.active {
+      background-color: #B0B9BF;
+      box-shadow: none;
+    }
+
+    div.scrolltab.active {
+      background-color: #B0B9BF;
+      box-shadow: none;
+    }
+
+    &:hover>div.button {
+      background-color: #B7C0C5;
+    }
+
+    &:hover>div.scrolltab {
+      background-color: #B7C0C5;
+    }
+  }
+
+  .target {
+    position: absolute;
+    left: 0;
+    right: 16px;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    outline: none;
+  }
+
+  .top-scrolled {
+    position: absolute;
+    left: 0;
+    right: 16px;
+    top: 0;
+    height: 12px;
+    box-shadow: 0 6px 6px 0px white inset;
+    z-index: -1;
+    display: none;
+  }
+  .bottom-scrolled {
+    position: absolute;
+    left: 0;
+    right: 16px;
+    bottom: 0;
+    height: 12px;
+    box-shadow: 0 -6px 6px 0px white inset;
+    z-index: -1;
+    display: none;
+  }
+
+  .active-scrolled {
+    z-index: 97;
+    display: block;
+  }
+
+  .scroll-blocker {
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  }
+
+  .scroll-blocker-active {
+    z-index: 101;
+    opacity: 0;
+    cursor: s-resize;
+  }
+}

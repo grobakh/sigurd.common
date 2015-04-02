@@ -1,0 +1,33 @@
+.controls_button_button {
+  .controls_button_button_mixin;
+  button:focus {
+    outline: none;
+  }
+
+  button:hover {
+    background-color: #B0F0F0;
+  }
+
+  button:active {
+    background-color: #B0FFF0;
+  }
+}
+
+.controls_button_button_mixin(){
+  button[disabled] {
+    cursor: default;
+  }
+  button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 2px 12px;
+    border: none;
+    background-color: #C0FFFF;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    margin: 0;
+  }
+}
+
+
+

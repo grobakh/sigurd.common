@@ -1,0 +1,13 @@
+.controls_rtf_rtfInput .rtf-input {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  width: 350px;
+  height: 250px;
+  border: 1px black solid;
+  overflow-y: scroll;
+}
+.controls_rtf_rtfInput .invalid {
+  border: 0 solid red;
+  border-left-width: 2px;
+  padding-left: 3px;
+}

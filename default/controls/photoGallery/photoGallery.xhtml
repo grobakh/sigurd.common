@@ -1,0 +1,28 @@
+<div class="photoBlock">
+    <div class="photoList" data-region="items" data-source="@templateParent source">
+
+        <div data-region="switch" data-value="@item state" data-context="@item">
+            <div data-switch-value="image">
+                <div data-region="button" data-template="controls/photoGallery/photoButton"
+                     data-class="@context isSelected"
+                     data-imageWidth="48" data-imageHeight="36"
+                     data-imageId="@context originalImageId"
+                     data-command="@templateParent select-command"
+                     data-command-data="@context"
+                     class="imageButton"></div>
+            </div>
+            <div data-switch-value="new">
+                <div class="addButton">
+                    <span data-region="image" data-no-image="b2b:icons/no-logo.png"></span>
+                    <span class="add-image" data-region="controls/fileUpload/fileUploadButton" data-type="Image"
+                          data-text="@templateParent addImageButton" data-multiple="@templateParent multiple-upload"
+                          data-command="@templateParent upload-command"></span>
+                </div>
+            </div>
+            <div data-switch-value="empty">
+                <div data-region="panel" class="emptyButton"></div>
+            </div>
+        </div>
+
+    </div>
+</div>

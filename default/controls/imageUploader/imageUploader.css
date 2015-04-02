@@ -1,0 +1,26 @@
+.controls_imageUploader_imageUploader .window {
+  width: 770px;
+  text-align: center;
+  position: relative;
+}
+.controls_imageUploader_imageUploader .header {
+  margin-top: 50px;
+}
+.controls_imageUploader_imageUploader .footer {
+  margin-bottom: 50px;
+}
+.controls_imageUploader_imageUploader .checkbox {
+  margin-bottom: 8px;
+}
+.controls_imageUploader_imageUploader .buttons {
+  margin-top: 10px;
+}
+.controls_imageUploader_imageUploader .buttons button {
+  margin: 0 8px 0 0;
+}
+.controls_imageUploader_imageUploader .windowContent {
+  margin-left: 50px;
+}
+.controls_imageUploader_imageUploader .image-area {
+  min-height: 200px;
+}

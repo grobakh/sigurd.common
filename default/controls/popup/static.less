@@ -1,0 +1,81 @@
+.controls_popup_static {
+  .modalVisible {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    //line-height: 2000px;
+    //margin:-1000px 0;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    text-align: center;
+  }
+
+  .title {
+    font: 14px arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #434d66;
+  }
+
+  .blocker {
+    position: fixed;
+    background-color: #000000;
+    opacity: 0.5;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+  .window {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    width: 450px;
+    background: #FFFFFF;
+    border: 1px solid #909090;
+    box-shadow: 0 2px 16px #000000;
+    border-radius: 6px;
+    position: relative;
+    opacity: 1;
+    transition: opacity 50ms 100ms, transform 150ms;
+    -moz-transition: opacity 50ms 100ms, -moz-transform 150ms;
+    -webkit-transition: opacity 50ms 100ms, -webkit-transform 150ms;
+  }
+  .modalVisible:before {
+    content: "";
+    width: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+
+  .popup-hide {
+    transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    opacity: 0;
+    transition: opacity 50ms, transform 150ms;
+    -moz-transition: opacity 50ms, -moz-transform 150ms;
+    -webkit-transition: opacity 50ms, -webkit-transform 150ms;
+  }
+
+  .windowContent {
+    text-align: left;
+    clear: both;
+    line-height: 20px;
+    margin: 50px 50px 50px 50px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .x {
+    float: right;
+    margin: -15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+}

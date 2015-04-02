@@ -1,0 +1,26 @@
+.controls_comboBox_optionButton .link {
+  cursor: default;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  box-shadow: none;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -moz-appearance: normal;
+  -webkit-appearance: normal;
+  text-align: left;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.controls_comboBox_optionButton .link[disabled] {
+  cursor: default;
+  text-decoration: none;
+  color: rgba(2, 141, 19, 0.32);
+}
+.controls_comboBox_optionButton .link:focus {
+  outline: none;
+}

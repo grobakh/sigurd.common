@@ -1,0 +1,16 @@
+<span data-region="textInput" class="inputWrapper"
+      data-id="inputValue" data-autocommit="input"
+      data-text="@templateParent inputValue mode=twoWay"></span>
+<span data-id="controlButton" class="controlButton"></span>
+<ul data-region="items" data-id="itemList" class="modalList"
+    data-source="@templateParent processedSource" data-visible="@templateParent isListVisible">
+    <li data-property="item-fragment" class="item" data-region="button" data-template="controls/comboBox/optionButton"
+             data-context="@item"
+             data-class="@context isSelected"
+             data-text="@context value"
+             data-visible="@context isVisible"
+             data-command="@templateParent doSelect"
+             data-command-data="@context"
+             data-down-command="@templateParent doStartSelect">
+    </li>
+</ul>

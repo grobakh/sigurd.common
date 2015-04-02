@@ -1,0 +1,19 @@
+.controls_slider_slider .dragfield {
+  cursor: w-resize;
+  /*background-color: grey;*/
+
+}
+.controls_slider_slider .blocker {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.controls_slider_slider .blockerActive {
+  z-index: 10000;
+  opacity: 0.2;
+  background-color: #000000;
+  cursor: w-resize;
+}

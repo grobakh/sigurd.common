@@ -1,0 +1,19 @@
+<div data-region="items" data-id="itemBlock" class="itemsBlock"
+     data-source="@templateParent source">
+    <div class="item">
+        <span data-region="checkbox"
+              data-id="itemCheckbox"
+              data-context="@item"
+              data-command="@templateParent doChange"
+              data-command-data="@context"
+              data-value="@context isChecked mode=twoWay"
+              data-autocommit="select"
+              data-focus-event="@context focusEvent"
+              data-enabled="@context isEnabled"></span>
+        <span data-region="label"
+              data-id="itemText"
+              data-context="@item"
+              data-text="@context displayValue"
+              data-enabled="@context isEnabled"></span>
+    </div>
+</div>

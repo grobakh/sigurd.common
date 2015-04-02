@@ -1,0 +1,10 @@
+.controls_popup_plainHeaded .header {
+  margin-top: 50px;
+  left: 25px;
+}
+.controls_popup_plainHeaded .windowContent {
+  clear: both;
+  margin: 50px 32px 50px 50px;
+  overflow: hidden;
+  position: relative;
+}

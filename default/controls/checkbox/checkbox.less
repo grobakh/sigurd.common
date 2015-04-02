@@ -1,0 +1,58 @@
+.controls_checkbox_checkbox {
+
+
+  margin-right: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 16px;
+
+  input {
+    height: 16px;
+    width: 16px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    opacity: 0;
+  }
+
+  input+div {
+    display: block;
+    height: 16px;
+    width: 16px;
+    margin: -16px 0 0 0;
+    cursor: pointer;
+    background: url('/static/common/default/controls/checkbox/images/check-false.png') no-repeat center;
+  }
+
+  input:hover+div {
+    background: url('/static/common/default/controls/checkbox/images/check-false-active.png') no-repeat center;
+  }
+
+  input:focus+div {
+    background: url('/static/common/default/controls/checkbox/images/check-false-active.png') no-repeat center;
+  }
+
+  input:checked+div {
+    background: url('/static/common/default/controls/checkbox/images/check-true.png') no-repeat center;
+  }
+
+  input:checked:hover+div {
+    background: url('/static/common/default/controls/checkbox/images/check-true-active.png') no-repeat center;
+  }
+
+  input:checked:focus+div {
+    background: url('/static/common/default/controls/checkbox/images/check-true-active.png') no-repeat center;
+  }
+
+  input:disabled+div {
+    cursor: default;
+    background: url('/static/common/default/controls/checkbox/images/check-false-disabled.png') no-repeat center;
+  }
+
+  input:disabled:checked+div {
+    cursor: default;
+    background: url('/static/common/default/controls/checkbox/images/check-true-disabled.png') no-repeat center;
+  }
+}

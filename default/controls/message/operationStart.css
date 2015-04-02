@@ -1,0 +1,38 @@
+.controls_message_operationStart {
+  visibility: hidden;
+}
+.controls_message_operationStart .message {
+  visibility: visible;
+  width: 263px;
+  height: 59px;
+  margin-right: 5px;
+  padding: 3px 5px;
+  margin-top: 3px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 1500ms, margin-top 2000ms;
+  -webkit-transition: opacity 1500ms, margin-top 2000ms;
+  -moz-transition: opacity 1500ms, margin-top 2000ms;
+}
+.controls_message_operationStart .message.off {
+  display: none;
+}
+.controls_message_operationStart .message.on {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  opacity: 0.99;
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+}
+.controls_message_operationStart .message {
+  background-color: #dddddd;
+  color: #FFFFFF;
+  box-shadow: 0 0 3px #dddddd;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}

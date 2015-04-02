@@ -1,0 +1,66 @@
+.controls_comboBox_comboBox {
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+}
+.controls_comboBox_comboBox .inputWrapper {
+  width: 100%;
+}
+.controls_comboBox_comboBox .inputWrapper input.input {
+  font-size: 15px;
+  line-height: 18px;
+  height: 24px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 3px 24px 3px 4px;
+  margin: 0;
+  /*border: none;*/
+
+}
+.controls_comboBox_comboBox .controlButton {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -20px;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+}
+.controls_comboBox_comboBox .controlButton:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 6px 4px 5px;
+  background: none;
+  border: 5px solid transparent;
+  border-top-color: #606060;
+}
+.controls_comboBox_comboBox .controlButton:hover:after {
+  border-top-color: #000000;
+}
+.controls_comboBox_comboBox .modalList {
+  position: absolute;
+  background: #ffffff;
+  border: 1px solid #aaaaaa;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.controls_comboBox_comboBox .modalList .item {
+  cursor: default;
+  padding: 3px 4px;
+}
+.controls_comboBox_comboBox .modalList .selected {
+  background: #aaaaff;
+  padding: 3px 4px;
+}
+.controls_comboBox_comboBox .modalList button {
+  font-size: 15px;
+}

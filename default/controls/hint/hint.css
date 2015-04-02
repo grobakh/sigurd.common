@@ -1,0 +1,37 @@
+.controls_hint_hint {
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-left: -20px;
+}
+.controls_hint_hint .hint {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: grey;
+}
+.controls_hint_hint .hint:before {
+  content: "?";
+  display: block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+.controls_hint_hint .hint .hintLine {
+  margin-left: 7px;
+  width: 2px;
+  height: 0px;
+  background-color: grey;
+}
+.controls_hint_hint .hint .hintBody {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: grey;
+  color: white;
+  white-space: pre-wrap;
+}

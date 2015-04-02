@@ -1,0 +1,21 @@
+.controls_textInput_textInput input.input {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+.controls_textInput_textInput .invalid {
+  border: 0 solid red;
+  border-left-width: 2px;
+  padding-left: 3px;
+}
+.controls_textInput_shortTextInput input.input {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+.controls_textInput_shortTextInput .invalid {
+  border: 0 solid red;
+  border-left-width: 2px;
+  padding-left: 3px;
+}
+.controls_textInput_shortTextInput input.input {
+  width: 200px;
+}

@@ -1,0 +1,9 @@
+.controls_popup_wide-headed .window {
+  width: 860px;
+}
+.controls_popup_wide-headed .header {
+  top: 50px;
+}
+.controls_popup_wide-headed .windowContent {
+  margin-top: 90px;
+}

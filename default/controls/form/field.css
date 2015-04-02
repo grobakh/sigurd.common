@@ -1,0 +1,10 @@
+.controls_form_field td {
+  vertical-align: top;
+}
+.controls_form_field .presenter {
+  display: inline-block;
+  width: 200px;
+}
+.controls_form_field .error {
+  width: 200px;
+}

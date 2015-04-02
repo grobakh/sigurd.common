@@ -1,0 +1,40 @@
+.controls_expander_expander {
+  .controller-closed {
+    float: left;
+    margin: 4px 0 0 6px;
+    height: 15px;
+    width: 15px;
+    background: url('/static/common/default/controls/expander/down.png') no-repeat center;
+  }
+
+  .controller-open {
+    float: left;
+    margin: 4px 0 0 6px;
+    height: 15px;
+    width: 15px;
+    background: url('/static/common/default/controls/expander/up.png') no-repeat center;
+  }
+
+  .expander {
+    color: #495d66;
+    font-size: 11px;
+    margin-left: 24px;
+    transition: height 0.15s;
+    -moz-transition: height 0.15s;
+    -webkit-transition: height 0.15s;
+    overflow: hidden;
+  }
+
+  .expander-closed {
+    height: 0;
+  }
+
+  .expander-closed>div:first-line {
+    line-height: 24px;
+  }
+
+  .expander-open>div {
+    height: auto;
+    line-height: 20px;
+  }
+}

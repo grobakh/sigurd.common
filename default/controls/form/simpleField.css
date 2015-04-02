@@ -1,0 +1,10 @@
+.controls_form_simpleField td {
+  vertical-align: top;
+}
+.controls_form_simpleField .presenter {
+  display: inline-block;
+  width: 200px;
+}
+.controls_form_simpleField .error {
+  width: 200px;
+}

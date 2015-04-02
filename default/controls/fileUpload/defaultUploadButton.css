@@ -1,0 +1,75 @@
+.controls_fileUpload_defaultUploadButton {
+  display: inline-block;
+}
+.controls_fileUpload_defaultUploadButton .upload {
+  display: inline-block;
+  margin: 0;
+  padding: 0 8px 2px 0;
+  overflow: hidden;
+  position: relative;
+}
+.controls_fileUpload_defaultUploadButton .label {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 14px;
+}
+.controls_fileUpload_defaultUploadButton .file {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 200px;
+  line-height: 200px;
+  font-size: 200px;
+  margin: -100px 0;
+  width: 100%;
+  opacity: 0;
+}
+.controls_fileUpload_defaultUploadButton .label {
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  height: 15px;
+  color: #434f55;
+  text-shadow: 0 1px 1px #FFFFFF;
+  padding: 5px 20px 7px 20px;
+  background-image: url('controls:button/images/greybutton.png') /*File C:\Work\Lookfi\tomcat\webapps\lookfi\client\controls:button\images\greybutton.png doesn't exist. Check path*/;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-shadow: 0 0 0 #000000;
+  border: 1px solid #858585;
+  margin: 0;
+  display: inline-block;
+}
+.controls_fileUpload_defaultUploadButton .label {
+  color: #FFFFFF;
+  text-shadow: 0px 1px 1px #01450a;
+  background-image: url('controls:button/images/greenbutton.png') /*File C:\Work\Lookfi\tomcat\webapps\lookfi\client\controls:button\images\greenbutton.png doesn't exist. Check path*/;
+  border-bottom: 1px solid #1a611d;
+  border-top: 1px solid #007911;
+  border-left: 1px solid #097115;
+  border-right: 1px solid #097115;
+}
+.controls_fileUpload_defaultUploadButton .label:focus {
+  background-image: url('controls:button/images/greenfocus.png') /*File C:\Work\Lookfi\tomcat\webapps\lookfi\client\controls:button\images\greenfocus.png doesn't exist. Check path*/;
+  outline: none;
+}
+.controls_fileUpload_defaultUploadButton .label:hover {
+  background-image: url('controls:button/images/greenhover.png') /*File C:\Work\Lookfi\tomcat\webapps\lookfi\client\controls:button\images\greenhover.png doesn't exist. Check path*/;
+}
+.controls_fileUpload_defaultUploadButton .label:active {
+  background-image: url('controls:button/images/greenactive.png') /*File C:\Work\Lookfi\tomcat\webapps\lookfi\client\controls:button\images\greenactive.png doesn't exist. Check path*/;
+}
+.controls_fileUpload_defaultUploadButton .label[disabled] {
+  cursor: default;
+  color: #9f9fa4;
+  text-shadow: 0px 1px 1px #FFFFFF;
+  background-image: url('controls:button/images/disabledbutton.png') /*File C:\Work\Lookfi\tomcat\webapps\lookfi\client\controls:button\images\disabledbutton.png doesn't exist. Check path*/;
+  border-bottom: 1px solid #BCBCBC;
+  border-top: 1px solid #E9E9E9;
+  border-left: 1px solid #D5D5D5;
+  border-right: 1px solid #D5D5D5;
+}

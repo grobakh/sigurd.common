@@ -1,0 +1,19 @@
+<div>
+    <span data-region="combo" data-autocommit="select"
+          data-empty-value="@token item.createScreenEmptyCategory"
+          data-display-path="title" data-value-path="code"
+          data-selected-value="@templateParent category mode=twoWay"
+          data-source="@templateParent categorySource"></span>
+
+     <span data-region="combo" data-autocommit="select"
+           data-source="@context categories" data-empty-value="@token item.createScreenEmptySubCategory"
+           data-display-path="title" data-value-path="code"
+           data-selected-value="@templateParent subcategory mode=twoWay"
+           data-source="@templateParent subcategorySource"></span>
+
+     <span data-region="combo" data-autocommit="select"
+           data-source="@context categories" data-empty-value="@token item.createScreenEmptyView"
+           data-display-path="title" data-value-path="code"
+           data-selected-value="@templateParent selected-specification mode=twoWay"
+           data-source="@templateParent specificationSource"></span>
+</div>
